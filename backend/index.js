@@ -26,7 +26,7 @@ app.post("/todo", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  req.send("server running");
+  res.send("server running");
 });
 
 app.get("/todos", async (req, res) => {
