@@ -60,4 +60,8 @@ app.put("/completed", async (req, res) => {
 });
 
 dbConnect();
+<<<<<<< HEAD
 app.listen(3002);
+=======
+app.listen(3001);
+>>>>>>> 0987826f8c886a850425ae2f91fce9a246471e40
